@@ -37,6 +37,10 @@ var questions=[
     question: "In which year I was born?",
     answer: "1998"
   },
+  {
+    question: "What is my favourite tiffin?",
+    answer: "Uggrani"
+  }
   
 ];
 for(var i=0;i<questions.length;i++)
