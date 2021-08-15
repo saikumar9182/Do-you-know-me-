@@ -26,20 +26,28 @@ function play(question,answer){
 }
 var questions=[
   {
-    question:"Where do I live?",
+    question:"1) Where do I live?",
     answer:"Mahabubnagar"
   },
   {
-    question: "My favorite superhero wouldbe?",
+    question: "2) My favorite superhero wouldbe?",
     answer:"Iron man"
   },
   {
-    question: "In which year I was born?",
+    question: "3) In which year I was born?",
     answer: "1998"
   },
   {
-    question: "What is my favourite tiffin?",
+    question: "4) What is my favourite tiffin?",
     answer: "Uggrani"
+  },
+  {
+    question:"5) What is my favourite Author?",
+    answer:"Osho"
+  },
+  {
+    question: "6) In which city do I study?",
+    answer:"Hyderabad"
   }
   
 ];
@@ -48,3 +56,5 @@ for(var i=0;i<questions.length;i++)
   var currentQuestion= questions[i];
   play(currentQuestion.question,currentQuestion.answer);
 }
+
+console.log("Your Total score is ",score);
