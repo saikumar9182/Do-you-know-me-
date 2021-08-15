@@ -1,9 +1,5 @@
 # Do you know me?
 
- A CLI quiz app made using Javascript.
-
- For now, I know
-
- 1)Javascript
+ A CLI quiz app written on node repl.
  
- 2)HTML
+ This app let's the user to test his knowledge about me through Multiple choice questions.
